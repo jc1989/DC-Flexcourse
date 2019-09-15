@@ -1,0 +1,30 @@
+#!/bin/bash
+echo "Creating Folders"
+cd desktop
+mkdir flexcourse
+cd flexcourse
+mkdir digitalcrafts
+#instead of changing directories, you can mkdir digitalcrafts/projects mkdirdigitalcrafts/mysite etc.
+cd digitalcrafts
+mkdir projects
+mkdir mysite
+mkdir files
+cd projects
+mkdir CLI101
+cd CLI101
+touch hello.txt
+cd ../..
+cd mysite
+touch index.html
+cd ..
+cd files
+touch question1.txt
+touch question2.txt
+touch question3.md
+touch josh.info
+touch remove-me-1.txt
+touch remove-me-2.txt
+
+#./create-folders to run the file
+#chmod u+x create-folders to make the file executable
+#ok
