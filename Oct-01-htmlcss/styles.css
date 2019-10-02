@@ -1,0 +1,77 @@
+.bodyDiv1 {
+    text-align: center;
+    margin:20px 100px;
+}
+
+.bodyDiv2 {
+    text-align: left;
+    margin:0px 100px;
+}
+
+.mainDiv{
+    padding-top: 120px;
+}
+
+.headingL{
+    display:inline-block;
+    float: left;
+    margin:20px;
+}
+
+.headingR{
+    display:inline-block;
+    float: right;
+    margin:20px;
+}
+
+.h1{
+    float:right;
+    font-size:34px;
+}
+
+.footer{
+    text-align: left;
+    padding-inline-start: 0px;
+}
+
+.footer2{
+    padding: 50px;
+    text-align: center;
+    color:gray;
+}
+
+.blueButton {
+    background-color:rgb(42, 170, 255);
+    color: white;
+    font-size:16px;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.date{
+    color:gray;
+    margin: 20px 0px 5px 0px
+}
+
+.buttons{
+    color:darkgray;
+    font-size:20px;
+}
+
+.buttons2{
+    color:gray;
+    font-size:20px;
+}
+
+.subTitle{
+    font-size: 30px;
+}
+
+button{
+    border: none;
+}
+
+span{
+    font-size: 25px;
+}
+
