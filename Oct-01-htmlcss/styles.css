@@ -1,11 +1,16 @@
+.fonts{
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(56, 56, 56)
+}
+
 .bodyDiv1 {
     text-align: center;
-    margin:20px 100px;
+    margin:20px 160px;
 }
 
 .bodyDiv2 {
     text-align: left;
-    margin:0px 100px;
+    margin: 20px 200px;
 }
 
 .mainDiv{
@@ -15,18 +20,20 @@
 .headingL{
     display:inline-block;
     float: left;
-    margin:20px;
+    margin: 20px 20px 20px 120px;
+    padding: 13px;
 }
 
 .headingR{
     display:inline-block;
     float: right;
-    margin:20px;
+    margin: 20px 120px 20px 20px;
 }
 
 .h1{
     float:right;
-    font-size:34px;
+    font-size:28px;
+    padding-left: 6px;
 }
 
 .footer{
@@ -41,16 +48,17 @@
 }
 
 .blueButton {
-    background-color:rgb(42, 170, 255);
-    color: white;
+    background-color:rgb(47, 141, 204);
+    color: rgba(255, 255, 255, 0.849);
     font-size:16px;
     padding: 5px 20px;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
 .date{
-    color:gray;
-    margin: 20px 0px 5px 0px
+    color:rgb(180, 179, 179);
+    margin: 20px 0px 5px 0px;
+    font-size: 14px;
 }
 
 .buttons{
@@ -64,7 +72,7 @@
 }
 
 .subTitle{
-    font-size: 30px;
+    font-size: 36px;
 }
 
 button{
