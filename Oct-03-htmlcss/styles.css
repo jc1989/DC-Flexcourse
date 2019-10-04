@@ -49,6 +49,10 @@
     color: #818181;
   }
 
+  .quoteBox span{
+      padding-left: 500px;
+  }
+
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -69,6 +73,7 @@
   .text{
     position:fixed;
     background-color: rgb(104, 102, 102);
+    width:14%;
   }
 
   .searchDiv{
