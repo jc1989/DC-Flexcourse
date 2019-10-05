@@ -11,6 +11,7 @@
     padding-top: 20px;
     font-family: 'Open Sans', sans-serif;
     margin:5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
   }
   
   /* The navigation menu links */
@@ -28,30 +29,33 @@
   }
   
   /* Style page content */
-  .main {
+  .main{
     margin: 0px 50px 30px 24%; /* Same as the width of the sidebar */
     padding: 0px 0px;
-    font-size:13px;
-    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
     color:rgb(80, 80, 80);
+  }
+
+  .main p{
+    font-family: 'Open Sans', sans-serif;
   }
   
   .divIntro{
-      margin-top:50px;
+      margin-top:20px; /*Margin*/
   }
 
-
+/*Quotebox*/
   .quoteBox{
-    border-left: 5px solid rgb(180, 180, 180);
+    border-left: 5px solid rgb(180, 180, 180); /*Dark border on left of paragraph*/
     padding: 5px 20px 5px 20px;
     margin: 0px 0px 30px 0px; /*Top-right-Bottom-left*/
     background:#f1f1f1;
     color: #818181;
   }
-
-  .quoteBox span{
+/*Quotebox*/
+  /* .quoteBox span{
       padding-left: 500px;
-  }
+  } */
 
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
@@ -59,6 +63,7 @@
     .sidenav a {font-size: 18px;}
   }
 
+  /*Copyright info*/
   .footer{
     position:fixed;
     float:none;
@@ -100,4 +105,20 @@
 
   .divLinks{
       margin-top: 80px;
+  }
+
+  .quote1{
+    font-size:30px;
+    padding-left:0px;
+    font-family: 'Be Vietnam', sans-serif;
+  }
+
+  .quote2{
+    font-size:30px;
+    padding-left:600px;
+    font-family: 'Be Vietnam', sans-serif;
+  }
+
+  .quoteName{
+    padding-left:400px;
   }
