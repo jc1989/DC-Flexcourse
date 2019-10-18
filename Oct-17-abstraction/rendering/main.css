@@ -1,0 +1,21 @@
+/* Type whatever CSS you need here! */
+.circles{
+    vertical-align: center;
+    position: relative 
+}
+
+.nametag{
+    border-style:solid;
+    border-width:1px;
+    width: 200px;
+    font-size:12px;
+}
+
+.nametag h4{
+    background-color:blue;
+    color:white;
+}
+
+.nametags{
+    margin:20px;
+}
