@@ -1,6 +1,19 @@
 var content = document.getElementById('content');
 
+
+
+
+
+
+
 var rockPaperScissors = "Replace this with your own abstraction of Rock Paper Scissors"
+
+
+
+
+
+
+
 
 content.innerHTML = renderGame(rockPaperScissors);
 
