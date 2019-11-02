@@ -36,6 +36,38 @@
   //
   // Pretty simple, right?
   //
+
+  $('#generateDoggoBtn').click(clickdoggo)
+
+  function clickdoggo () {
+    $('#generateDoggoBtn').html('Generating Doggo...').attr('disabled', true);
+    $.get('https://dog.ceo/api/breeds/image/random', function(data){
+    $('#generateDoggoBtn').html('Generate Doggo').attr('disabled', false); 
+    $('#doggoContainer').html("<img src="+data.message+">")
+    });
+    $('#generateDoggoBtn').removeAttr('disabled');
+  }
+
+  // async function fetchAllBreeds(){
+  //   let response = await fetch('https://dog.ceo/api/breeds/list');
+  //   let responseObject = await response.json();
+  //   console.log(responseObject);
+  //   let content = dropdownContent(responseObject);
+  //   document.getElementById('drop-down').innerHTML = content;
+  // }
+  // function dropdownContent(responseObject){
+  //   let allBreeds = Object.keys(responseObject.message)
+  //   console.log(allBreeds);
+  //   console.log(allBreeds[0]);
+  //   let dropDown = '<select id="breed-dropdown">';
+  //         for(var i = 0; i < allBreeds.length; i++) {
+  //         dropDown += <option value="${allBreeds[i]}">${allBreeds[i]}</option>;
+  //         }
+  //   dropDown += '</select>';
+  //   return dropDown;
+  // }  
+
+  
   // Next up you will use jQuery AJAX methods to fetch some things from the dog.ceo website.
   // Check out the dog.ceo API here: https://dog.ceo/dog-api/
   //
@@ -73,6 +105,15 @@
   // TODO: your code goes here :)
 
   //
+
+  $('#selectBreedContainer').html("<select></select>");
+
+    $.get('https://dog.ceo/api/breeds/list'), function(response){
+    $('#selectBreedContainer').append("<select>"+response.message+"</select>");
+    console.log(response.message);
+}
+
+
   // Cool. Now let's kick it up a notch and allow selecting a specific breed of dog!
   //
   // 1) Add an empty dropdown menu (ie: <select></select>) to the <div id="selectBreedContainer"> element.
